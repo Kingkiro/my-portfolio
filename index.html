@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nirmal S - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Nirmal S
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          NirmalS@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://edems.in/wp-content/uploads/2024/04/output-onlinegiftools.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Nirmal S! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            A junior full stack developer typically gains experience by contributing to the development of web applications across both front-end 
+            and back-end aspects, including designing user interfaces, writing code for application logic, integrating APIs, collaborating with design 
+            teams, performing testing, and working within an agile development framework, while continuously learning new technologies to build and 
+            maintain fully functional web applications.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>5 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://www.tutorialspoint.com/static/images/cg/java.svg"/>
+            <h6>Java</h6>
+            <p>4 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://www.tutorialspoint.com/static/images/cg/python.svg"/>
+            <h6>Python</h6>
+            <p>3 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="https://www.tutorialspoint.com/static/images/cg/c++.svg"/>
+            <h6>C++</h6>
+            <p>1 year experience</p>
+          </div>  
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>E-Commerce Platform</h3>
+            <ul>
+              <li>Developed an E-Commerce platform using HTML5, CSS3, Bootstrap, Node.js and Mongo DB</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Social Media App</h3>
+            <ul>
+              <li>Developed and deployed a Social Media App using React, Vue.js, HTML5, CSS3, Mongo DB and Firebase</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Food Delivery App</h3>
+            <ul>
+              <li>Created a Food Delivery App using React, Vue.js, Bootstrap, Node.js, Mongo DB and Django</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Nirmal is a highly skilled and dedicated professional. Their strong work ethic and positive attitude make them a valuable asset to any team.
+          He consistently exceeds expectations and delivers high-quality work. Their attention to detail and problem-solving skills are impressive. 
+          A creative and innovative thinker. Their ability to adapt to new challenges and find innovative solutions is invaluable.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Nirmal is a reliable and trustworthy colleague. They always meet deadlines and deliver exceptional results.
+          He is a strong communicator and team player. They collaborate effectively with others and build positive relationships.
+          A quick learner and highly adaptable. They are able to pick up new skills and technologies quickly.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Nirmal is a proactive and self-motivated individual. They take initiative and drive projects forward.
+          He's a highly organized and detail-oriented person. They ensure that all tasks are completed accurately and efficiently.
+          A highly respected professional with a proven track record of success. Their expertise in [specific area] is invaluable and they are always willing to go the extra mile.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thank you for leaving a recommendation.</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
